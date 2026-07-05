@@ -14,7 +14,7 @@ function Hero() {
 
         <div className="status-badge">
           <FaCircle className="status-dot" />
-          Available for Opportunities
+          Open to Opportunities
         </div>
 
         <p className="welcome"> Hello, I'm</p>
