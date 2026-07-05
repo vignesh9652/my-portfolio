@@ -1,129 +1,81 @@
-import "../css/Contact.css";
-import {
-  FaEnvelope,
-  FaPhone,
-  FaMapMarkerAlt,
-  FaLinkedin,
-  FaGithub
-} from "react-icons/fa";
+<section className="contact" id="contact">
 
-function Contact() {
-  return (
-    <section className="contact" id="contact">
-
-      <div className="section-tag">
+    <div className="section-tag">
         CONTACT
-      </div>
+    </div>
 
-      <h2 className="contact-heading">
+    <h2 className="contact-title">
         Let's Work Together
-      </h2>
+    </h2>
 
-      <p className="contact-subtitle">
+    <p className="contact-subtitle">
         Have a project or opportunity? Let's connect.
-      </p>
+    </p>
 
-      <div className="contact-container">
+    <div className="contact-container">
 
-        {/* Contact Information */}
+        <div className="contact-card">
 
-        <div className="contact-info">
+            <h3>Contact Information</h3>
 
-          <div className="info-card">
-
-            <div className="info-icon">
-              <FaEnvelope />
+            <div className="contact-item">
+                <div className="contact-icon">
+                    <FaEnvelope />
+                </div>
+                <span>13794prathap@gmail.com</span>
             </div>
 
-            <div className="info-content">
-              <h3>Email</h3>
-              <p>panchavativignesh@gmail.com</p>
+            <div className="contact-item">
+                <div className="contact-icon">
+                    <FaPhone />
+                </div>
+                <span>+91 6300075885</span>
             </div>
 
-          </div>
-
-          <div className="info-card">
-
-            <div className="info-icon">
-              <FaPhone />
+            <div className="contact-item">
+                <div className="contact-icon">
+                    <FaMapMarkerAlt />
+                </div>
+                <span>Andhra Pradesh, India</span>
             </div>
-
-            <div className="info-content">
-              <h3>Phone</h3>
-              <p>+91 9652270638</p>
-            </div>
-
-          </div>
-
-          <div className="info-card">
-
-            <div className="info-icon">
-              <FaMapMarkerAlt />
-            </div>
-
-            <div className="info-content">
-              <h3>Location</h3>
-              <p>Andhra Pradesh, India</p>
-            </div>
-
-          </div>
-
-          <div className="social-links">
-
-            <a
-              href="https://github.com/vignesh9652"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaGithub />
-            </a>
-
-            <a
-              href="https://www.linkedin.com/in/vignesh-panchavati-43a8a02a7"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaLinkedin />
-            </a>
-
-          </div>
 
         </div>
 
-        {/* Contact Form */}
+        <div className="contact-card">
 
-        <form className="contact-form">
+            <h3>Connect With Me</h3>
 
-          <input
-            type="text"
-            placeholder="Your Name"
-          />
+            <p className="connect-text">
+                Open to internship and full-time opportunities as a Java Full Stack Developer.
+                Feel free to connect and collaborate on exciting projects.
+            </p>
 
-          <input
-            type="email"
-            placeholder="Your Email"
-          />
+            <div className="social-links">
 
-          <input
-            type="text"
-            placeholder="Subject"
-          />
+                <a
+                    href="https://www.linkedin.com/in/mobbu-surya-prathap-reddy"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <FaLinkedin />
+                </a>
 
-          <textarea
-            rows="6"
-            placeholder="Your Message"
-          ></textarea>
+                <a
+                    href="https://github.com/your-github-username"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <FaGithub />
+                </a>
 
-          <button type="submit">
-            Send Message
-          </button>
+                <a href="mailto:13794prathap@gmail.com">
+                    <FaEnvelope />
+                </a>
 
-        </form>
+            </div>
 
-      </div>
+        </div>
 
-    </section>
-  );
-}
+    </div>
 
-export default Contact;
+</section>
