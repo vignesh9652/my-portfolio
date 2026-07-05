@@ -1,0 +1,123 @@
+.sidebar{
+
+    position:fixed;
+    left:0;
+    top:0;
+
+    width:280px;
+    height:100vh;
+
+    background:linear-gradient(
+    180deg,
+    #0f172a,
+    #1e3a8a,
+    #0f172a);
+
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+
+    padding:35px 25px;
+
+    box-shadow:5px 0 25px rgba(0,0,0,.15);
+
+}
+
+.profile{
+
+    text-align:center;
+
+}
+
+.profile img{
+
+    width:150px;
+    height:150px;
+
+    border-radius:50%;
+
+    border:5px solid #38bdf8;
+
+    object-fit:cover;
+
+    margin-bottom:20px;
+
+}
+
+.profile h2{
+
+    color:white;
+    font-size:26px;
+
+}
+
+.profile p{
+
+    color:#cbd5e1;
+    margin-top:10px;
+    font-size:15px;
+
+}
+
+nav{
+
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+
+}
+
+nav a{
+
+    color:#e2e8f0;
+
+    text-decoration:none;
+
+    padding:14px 18px;
+
+    display:flex;
+    align-items:center;
+
+    gap:15px;
+
+    border-radius:10px;
+
+    transition:.35s;
+
+    font-size:17px;
+
+}
+
+nav a:hover{
+
+    background:#2563eb;
+
+    transform:translateX(8px);
+
+}
+
+.social{
+
+    display:flex;
+    justify-content:center;
+    gap:20px;
+
+}
+
+.social a{
+
+    color:white;
+
+    font-size:28px;
+
+    transition:.3s;
+
+}
+
+.social a:hover{
+
+    color:#38bdf8;
+
+    transform:scale(1.2);
+
+}

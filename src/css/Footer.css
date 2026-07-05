@@ -1,0 +1,33 @@
+.footer{
+
+    background:#0f172a;
+
+    color:white;
+
+    text-align:center;
+
+    padding:40px;
+
+}
+
+.footer h3{
+
+    font-size:28px;
+
+    margin-bottom:10px;
+
+}
+
+.footer p{
+
+    margin:10px 0;
+
+    color:#cbd5e1;
+
+}
+
+.heart{
+
+    color:#ef4444;
+
+}
